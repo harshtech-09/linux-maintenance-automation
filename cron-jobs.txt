@@ -1,0 +1,23 @@
+𝗟𝗼𝗴 𝗥𝗼𝘁𝗮𝘁𝗶𝗼𝗻
+
+Runs every day at 2:00 AM.
+
+0 2 * * * /path/to/log_rotate.sh
+
+𝗕𝗮𝗰𝗸𝘂𝗽
+
+Runs every Sunday at 3:00 AM.
+
+0 3 * * 0 /path/to/backup.sh
+
+𝗛𝗲𝗮𝗹𝘁𝗵 𝗖𝗵𝗲𝗰𝗸
+
+Runs every 5 minutes.
+
+*/5 * * * * /path/to/health_check.sh
+
+𝗠𝗮𝗶𝗻𝘁𝗲𝗻𝗮𝗻𝗰𝗲
+
+Runs every day at 1:00 AM.
+
+0 1 * * * /path/to/maintenance.sh
